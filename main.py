@@ -1,6 +1,6 @@
-def main():
-    print("Hello from end-to-end-ml!")
+from end_to_end_ml import logger
 
+logger.info("Welcome to our custom logging")
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
